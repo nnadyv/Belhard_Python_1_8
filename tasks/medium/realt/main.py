@@ -2,7 +2,6 @@ from house import House
 from townhouse import Townhouse
 from person import Person
 
-
 if __name__ == "__main__":
     house1 = House("Mickiewicza", 46, 700)
     house = House("Chrobrego", 5, 800)

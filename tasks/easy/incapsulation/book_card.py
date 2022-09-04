@@ -77,4 +77,3 @@ class BookCard:
             self.__year = val
         else:
             raise ValueError
-

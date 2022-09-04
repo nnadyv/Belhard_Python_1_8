@@ -57,7 +57,7 @@ class LibraryReader(Person):
         if len(self.books) < 3:
             return f"Петров В.В. вернул(а) книги: {self.books}"
         elif len(self.books) > 3:
-            return f"Петров В.В. вернул(а) 4 книги"
+            return "Петров В.В. вернул(а) 4 книги"
         elif self.books == set():
             raise ValueError("Петров В. В. не брал: Рассказы")
         self.books.discard(*args)

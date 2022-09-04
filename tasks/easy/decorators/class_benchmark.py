@@ -16,6 +16,7 @@
 Всего затрачено времени на выполнение: {end_time - start_time}
 """
 import time
+
 start_time = time.time()
 end_time = time.time()
 

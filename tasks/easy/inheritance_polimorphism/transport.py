@@ -58,7 +58,7 @@ class Transport:
 
 class Car(Transport):
     engine_type: str
-    
+
     def __init__(self, brand, model, issue_year, color, engine_type):
         super().__init__(brand, model, issue_year, color)
         self.engine_type = engine_type

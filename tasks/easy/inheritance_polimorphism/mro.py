@@ -48,4 +48,3 @@ class MFU(Scanner, Copier):
 if __name__ == "__main__":
     obj = MFU()
     print(MFU.mro())
-
