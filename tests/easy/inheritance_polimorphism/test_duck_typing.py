@@ -4,7 +4,7 @@ from tasks.easy.inheritance_polimorphism.duck_typing import (
     AmericanPerson,
     RussianPerson,
     GermanyPerson,
-    person_love_science
+    person_love_science, i_love_science
 )
 
 
@@ -16,7 +16,7 @@ from tasks.easy.inheritance_polimorphism.duck_typing import (
     )
 )
 def test_classes(person_class, expected):
-    assert person_class().i_love_science() == expected
+    assert i_love_science() == expected
 
 
 def test_person_love_science():
