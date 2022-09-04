@@ -22,19 +22,16 @@ https://www.youtube.com/watch?v=8o7ZKTvZpLc
 
 
 class AmericanPerson:
-
     def i_love_science(self):
         return "I love science"
 
 
 class RussianPerson:
-
     def i_love_science(self):
         return "Я люблю науку"
 
 
 class GermanyPerson:
-
     def i_love_science(self):
         return "ich liebe Wissenschaft"
 
@@ -44,10 +41,9 @@ def person_love_science(obj):
 
 
 if __name__ == "__main__":
-    american_man = AmericanPerson()
-    russian_man = RussianPerson()
-    germany_man = GermanyPerson()
-
-    print(person_love_science(american_man))
-    print(person_love_science(russian_man))
-    print(person_love_science(germany_man))
+    american = AmericanPerson()
+    russian = RussianPerson()
+    germany = GermanyPerson()
+    print(person_love_science(american))
+    print(person_love_science(russian))
+    print(person_love_science(germany))
